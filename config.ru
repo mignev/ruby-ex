@@ -14,7 +14,7 @@ end
 map '/' do
   welcome = proc do |env|
     [200, { "Content-Type" => "text/html" }, [<<WELCOME_CONTENTS
-Hello world!
+Hello world from CloudStrap!
 WELCOME_CONTENTS
     ]]
   end
